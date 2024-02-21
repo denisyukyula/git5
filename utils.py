@@ -11,3 +11,12 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+<<<<<<< Updated upstream
+=======
+
+def is_power_of_5(n):
+    return n & (n - 1) == 0 and n != 0
+
+def is_power_of_2(n):
+    return n & (n - 1) == 0 and n != 0
+>>>>>>> Stashed changes
